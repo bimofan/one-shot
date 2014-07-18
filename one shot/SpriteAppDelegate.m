@@ -8,11 +8,31 @@
 
 #import "SpriteAppDelegate.h"
 
+
+#import <GameKit/GameKit.h>
+
+@interface UIImagePickerController(UIImagePickerCategary)
+
+@end
+@implementation UIImagePickerController
+(UIImagePickerCategary)
+
+-(BOOL) shouldAutorotate
+{
+    return NO;
+}
+
+@end
+
 @implementation SpriteAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+     
+ 
+    
     return YES;
 }
 							

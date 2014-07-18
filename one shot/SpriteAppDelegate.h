@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SpriteViewController.h"
 
+#import "GameKitHelper.h"
 @interface SpriteAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

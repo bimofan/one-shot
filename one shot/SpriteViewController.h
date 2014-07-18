@@ -10,5 +10,5 @@
 #import <SpriteKit/SpriteKit.h>
 
 @interface SpriteViewController : UIViewController
-
+@property(nonatomic,readonly)NSError*lastError;
 @end
